@@ -1,3 +1,5 @@
-h1 {
+ul li {
+    list-style-type: disc;
+    list-style-image: url('./img/alert-circle.png');
     color: red;
 }
