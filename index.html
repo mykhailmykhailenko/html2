@@ -8,12 +8,40 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-   </ul>
+ <table>
+    <thead>
+        <tr>
+            <td>1</td>
+            <td colspan="3">1</td>
+            <td rowspan="2">1</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td rowspan="2" colspan="2">1</td>
+            <td>1</td>
+        </tr>
+        <tr> 
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td colspan="3">1</td>
+        </tr>
+    </tfoot>
+    <caption>Таблица №4</caption>
+ </table>
 </body>
 </html>

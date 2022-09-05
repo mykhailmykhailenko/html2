@@ -1,5 +1,14 @@
-ul li {
-    list-style-type: disc;
-    list-style-image: url('./img/alert-circle.png');
-    color: red;
+table {
+    border-collapse: collapse;
+    font-size: 50px;
+    width: 500px;
+}
+
+tr {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+td {
+    border: 2px solid black;
 }
