@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+div:nth-child(2n+1) {
+    background-color: red;
+}
+
+div:nth-child(2n) {
+    background-color: green;
+}
+
+div:nth-child(3n) {
+    background-color: blue;
+}
