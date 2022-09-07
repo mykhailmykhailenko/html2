@@ -7,20 +7,20 @@ body {
     height: 20000000px;
 }
 .container {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     height: 800px;
     width: 80%;
     margin: 0 auto;
 }
 
 .wrapper {
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     width: 80%;
     height: 800px;
 }
 
 .inner {
-    background-color: forestgreen;
+    /* background-color: forestgreen; */
     border: 1px solid black;
     width: 80px;
     height: 80px;
@@ -28,20 +28,31 @@ body {
 }
 
 .one {
-    position: relative;
-    top: 20px;
-    left: 20px;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
+
 
 .two {
-
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .three {
-
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .four {
-
+    background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 
