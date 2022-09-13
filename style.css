@@ -1,1 +1,8 @@
+.element {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
 
+}
